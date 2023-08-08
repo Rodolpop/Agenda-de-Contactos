@@ -24,7 +24,7 @@ const crearContacto = (parentNode, contacto, db) => {
     nombreContacto.innerHTML = contacto.nombre
     numeroContacto.innerHTML = contacto.numero
     direccionContacto.innerHTML = contacto.direccion
-    iconoBorrar.innerHTML = 'delete_forever'
+    iconoBorrar.innerHTML = 'Borrar contacto'
 
     divContacto.classList.add('tarea')
     iconoBorrar.classList.add('material-icons', 'icono')
