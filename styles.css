@@ -14,8 +14,9 @@ html {
 }
 
 body {
+    background-image: url(./img/agenda.jpg) ;
     background-color: rgba(0, 0, 0, .8);
-    color: rgba(235, 228, 228, 0.9);
+    color: rgba(240, 241, 245, 0.9);
 
 }
 
@@ -67,7 +68,7 @@ body {
     height: 3rem;
     border-radius: 5px;
     text-transform: uppercase;
-    color:white;
+    color:rgb(228, 231, 235);
 }
 
 .listado-tareas{
