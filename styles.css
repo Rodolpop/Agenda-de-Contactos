@@ -16,7 +16,7 @@ html {
 body {
     background-image: url(./img/agenda.jpg) ;
     background-color: rgba(0, 0, 0, .8);
-    color: rgba(240, 241, 245, 0.9);
+    color: rgba(252, 252, 254, 0.9);
 
 }
 
@@ -52,17 +52,17 @@ body {
 }
 
 .formulario-datos input:active{
-    border-bottom: 1px solid dodgerblue;
+    border-bottom: 1px solid rgb(64, 64, 192);
 
 }
 
 .formulario-datos input:focus{
-    border-bottom: 1px solid dodgerblue;
+    border-bottom: 1px solid rgb(210, 129, 30);
 }
 
 .formulario-datos button {
     margin: 1rem 0rem;
-    background-color: dodgerblue;
+    background-color: rgb(129, 80, 20);
     border: 0;
     outline: 0;
     height: 3rem;
