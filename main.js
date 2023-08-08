@@ -3,11 +3,12 @@ const nombre = document.querySelector('.nombre')
 const numero = document.querySelector('.numero')
 const direccion = document.querySelector('.direccion')
 const btnAgregarTarea = document.querySelector('.btn-agregar-tarea')
-const listadoTarea = document.querySelector('.listado-tareas')
+
+const listadoTareas = document.querySelector('.listado-tareas')
 
 
 
-const db = window.localStorage;
+const db = window.localStorage
 
 btnAgregarTarea.onclick = () => {
     let contacto = {
@@ -21,3 +22,4 @@ btnAgregarTarea.onclick = () => {
 
 }
 
+cargarContactos(db, listadoTareas)
